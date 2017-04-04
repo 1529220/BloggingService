@@ -1,0 +1,49 @@
+1) Unit test: both validation rules are tested and passing
+
+I tested the methods usign a Graphic User Interface. 
+This not only helps to create a better user experience, 
+but also permits me to constantly check the functionaly of my code in a quick and efficient way.
+
+The rules tested are related to the validation check of the messages entered.
+
+The program should show a useful error to the user if:
+-The message is empty 
+-The message is more than 150 characters
+
+
+Firstly I checked that the message isn't longer that 150 characters. If it is the I display an unsuccessful message.
+	
+
+			 	 if(newmessage.length()>150){
+                 		        errorMessage("Message too long" , "error");
+				 }
+
+
+Then I chekc that the message isn't empty.If it is the I display an unsuccessful message.
+
+
+				 else if(newmessage.length()==0){
+					 errorMessage("Message too short" , "error");
+				 }
+
+				  else{ 
+					 Delete = new JButton("Delete");
+					 Delete.addActionListener(new ActionListener() {
+					 public void actionPerformed(ActionEvent arg0) {
+								
+							}
+						});
+
+
+If th emessage is correctly entered I display a successful message.
+
+
+					 errorMessage("Message entered correctly" , "Success");
+					 
+					 for(int k = 0;k<newmessage.length();k++){
+						 if(newmessage.charAt(k)=='\n'){
+						 newmessage.replaceAll("\n", " ");
+						 System.out.print(newmessage);
+						 }
+					 }			
+						
