@@ -1,0 +1,35 @@
+-Run the Applicaiton
+A simple window with just one button will appear. The only option at this point is to add a new message.
+To add a New message click on the new message button
+-click on New Message
+Now the user can type the new message in the Text Area below (with a white background).
+-type a message : " "
+-click on Save
+The string entered is empty, so a pop up window comes out saying that the message is too shot.
+-click ok to continue
+-type a message : "123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789123456789"
+-click on Save
+The string entered is more then 150 characters, so it is too long. A pop up window comes out saying that the message is too long.
+-click ok to continue
+-type a message : "First Message"
+-click on Save
+The message entered is valid. A pop up window comes out saying that the message is entered correctly.
+-click ok to continue
+The message is now diplayed in the List below. Next to the Message there is the time of submission.
+The time of submission is now "0 seconds ago", as the message has just been posted. 
+The time of submission will update every time the user enters a message.
+The user can enter another message:
+-Click on New Message
+-Type the Message: "Second Message"
+-click on Save
+The message entered is valid. A pop up window comes out saying that the message is entered correctly.
+-click ok to continue
+The message is now diplayed in the List below, above the First Message. Next to the Message there is the time of submission.
+The time of submission is now "0 seconds ago", as the message has just been posted.
+However, the time of submission of the first message is now "2 minutes ago".
+If the user wants to delete a message, it has to select the message that has to be canceled.
+-select message
+-click on Delete
+A pop up window comes out saying that the message is deleted correctly.
+-click ok to continue
+To close the applicaiton, click on the X button on the top right side of the window.
