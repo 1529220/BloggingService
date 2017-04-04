@@ -1,0 +1,90 @@
+1) Feature test: successful submission are passing
+
+Below I proved that successful messages are passing.
+
+When a user press on the 'New Message' button, a text area appears.
+In the text area the user can enter a new message. 
+After entering the message, the user can click on the 'Save' button.
+A pop up window with a successful message will appear.
+After clinking on the 'Ok' button, the message entered will be displayed below the'Messages' label.
+
+ 
+
+
+
+2) Feature test: unsuccessful submission are passing
+
+Below I described what happens in case of an unsuccessful submission.
+
+When a user press on the 'New Message' button, a text area appears.
+In the text area the user can enter a new message. 
+After entering the message, the user can click on the 'Save' button.
+A pop up window, with a message, will appear:
+-if the message entered is too short, there will be a message saying "Message empty (write at least one character)"
+-if the message entered is too long, there will be a message saying "Message too long(write less than 150 characters)"
+in both cases, the user will have to click on the 'ok' button.
+Then the system will send the user back to edit the message.
+After clinking on the 'Save' button, the message correctly entered, will be displayed below the'Messages' label.
+
+
+
+
+
+
+3) Feature test: message display are passing
+
+Below I proved that a message is displayed when a new element has been added to the list of messages below the 'Messges' label.
+
+When a user click on the'New Message' button, a text area appears.
+In the text area the user can enter a new message. 
+After entering the message, the user can click on the 'Save' button.
+A pop up window with a successful message will appear. The title of the window is "Successful message".
+When the message is correctly entered the pop up window will say: 
+
+"Message entered correctly!
+   click ok to continue"
+
+After clinking on the 'Ok' button, the message entered will be displayed below the'Messages' label.
+
+
+
+
+
+
+4) Feature test: message deletion are passing
+
+Below I proved that a message is displayed when an element has been deleted from the list of messages below the 'Messges' label.
+
+Having count that teh user already entered a few messages in the List,
+when the user wants to delete one of the messages in the list, that message has to be selected.
+After selecting the message, the user will click on the 'Delete' button.
+
+A pop up window with a successful message will appear. The title of the window is "Successful message".
+The pop up window will say: 
+
+"Message deleted correctly!
+   click ok to continue"
+
+After clinking on the 'Ok' button, the message deleted will be disappear from the list, as well as its related time of submission.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
